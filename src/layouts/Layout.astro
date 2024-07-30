@@ -22,7 +22,7 @@ const buildDate = __DATE__;
 
 const { title, lang = null } = Astro.props;
 
-const makeTitle = title ? title + " | " + "Alphatech" : "Alphatech Agencia";
+const makeTitle = title ? title + " | " + "Alphatech" : "Alphatech ";
 ---
 
 <!doctype html>
@@ -42,13 +42,13 @@ const makeTitle = title ? title + " | " + "Alphatech" : "Alphatech Agencia";
 
 		<SEO
 			title={makeTitle}
-			description="Astros is a starter website template for Astro built with TailwindCSS and alpine js."
+			description="Alphatech"
 			canonical={canonicalURL}
 			openGraph={{
 				basic: {
 					url: canonicalURL,
 					type: "website",
-					title: `Astros - Starter Template for Astro`,
+					title: `Alphatech`,
 					image: resolvedImageWithDomain,
 				},
 				image: {
