@@ -17,7 +17,7 @@ const pricingData = [
         features: ["Subdominio", "Hosting", "Pagina Web"],
         button: {
             text: "Empieza Ahora",
-            link: "/",
+            link: "/contact",
         },
     },
     {
@@ -42,8 +42,8 @@ const pricingData = [
         },
     },
     {
-        name: "Hosting",
-        price: "Perzonalizado",
+        name: "Empresas",
+        price: "2000",
         popular: false,
         features: ["All Pro Features", "Unlimited Custom domains", "99.99% Uptime SLA", "SAML & SSO Integration", "24/7 Phone Support"],
         button: {
@@ -64,7 +64,7 @@ const pricingData = [
 		<div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20">
 			{pricingData.map((item) => <Pricing plan={item} />)}
 		</div>
-		<!-- <Logos /> -->
+		<Logos />
 		<Faq />
 	</Container>
 </Layout>
